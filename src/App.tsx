@@ -1,9 +1,10 @@
 import { useState } from "react";
 import "./App.css";
 import { Navigate, Route, Routes } from "react-router-dom";
-import { BiHomeCircle } from "react-icons/bi";
 import { Header } from "./components/Header";
 import { LeftNavbarSection } from "./components/LeftNavbarSection";
+import { RightNavbarSection } from "./components/RightNavbarSection";
+import { HomePage } from "./pages/HomePage";
 
 function App() {
   return (
@@ -13,20 +14,15 @@ function App() {
         <LeftNavbarSection />
 
         <main className="main">
-          {/* <Routes>
-          <Route index element={<Navigate to="/home" />} />
-          <Route path="/home" element={<HomePage />} />
-          <Route path="/:username" element={<ProfilePage />} />
-          <Route path="/:username/status/:tweetId" element={<TweetPage />} />
-          <Route path="*" element={<PageNotFound />} />
-        </Routes> */}
-          <section className="home-page"></section>
+          <Routes>
+            <Route index element={<Navigate to="/home" />} />
+            <Route path="/home" element={<HomePage />} />
+            {/* <Route path="/:username" element={<ProfilePage />} />
+            <Route path="/:username/status/:tweetId" element={<TweetPage />} />
+            <Route path="*" element={<PageNotFound />} /> */}
+          </Routes>
         </main>
-        <aside>
-          <div></div>
-          <div></div>
-          <footer></footer>
-        </aside>
+        <RightNavbarSection />
       </div>
     </div>
   );

@@ -70,14 +70,14 @@ export function LeftNavbarSection() {
             <button className="tweet-btn">Tweet</button>
           </ul>
         </nav>
-        <div className="sidebar-profile-section">
+        <Link to="/:username" className="sidebar-profile-section">
           <img
             className="profile-pic"
             src="https://images.pexels.com/photos/1081685/pexels-photo-1081685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="user profile pic"
           />
           <h3>Username</h3>
-        </div>
+        </Link>
       </div>
     </aside>
   );

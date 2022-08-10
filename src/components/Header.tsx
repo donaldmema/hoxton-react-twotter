@@ -12,7 +12,11 @@ export function Header() {
         <HiOutlineSparkles style={{ color: "#d6d9db", fontSize: 25 }} />
       </div>
       <div>
-        <input type="search" placeholder="Search Twotter" />
+        <input
+          className="search-input"
+          type="search"
+          placeholder="🔍 Search Twotter"
+        />
       </div>
     </header>
   );
