@@ -1,0 +1,31 @@
+{
+  "tweets": [
+    {
+      "id": 1,
+      "username": "bob",
+      "img": "image.jpg",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, explicabo? Dicta accusamus tenetur perspiciatis natus velit sint eum neque optio nisi, voluptatem sunt quis. Quisquam error expedita deleniti laborum vitae?",
+      "replies": 13,
+      "retweets": 225,
+      "likes": 342
+    },
+    {
+      "id": 2,
+      "username": "joe",
+      "img": "image.jpg",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nesciunt saepe officia eius molestiae animi commodi similique quam voluptatum numquam.",
+      "replies": 32,
+      "retweets": 69,
+      "likes": 420
+    },
+    {
+      "id": 3,
+      "username": "jane",
+      "img": "image.jpg",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, ad!",
+      "replies": 125,
+      "retweets": 553,
+      "likes": 1203
+    }
+  ]
+}
