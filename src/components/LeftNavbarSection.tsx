@@ -76,7 +76,7 @@ export function LeftNavbarSection() {
             src="https://images.pexels.com/photos/1081685/pexels-photo-1081685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="user profile pic"
           />
-          <h3>Username</h3>
+          <h3>Ronald W.</h3>
         </Link>
       </div>
     </aside>
